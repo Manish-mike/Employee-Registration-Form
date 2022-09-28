@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#535353;
+    font-size: 14px;
+}
+
+.wrapper{
+    padding: 10px;
+    border: 1px #C71F51 solid;
+    height: auto;
+    float: left;
+    width: 100%;
+}
+
+/***************** left side css starts *********************/
+.left-container{
+    margin: 0px;
+    width: 50%;
+    float: left;
+    background: url("../images/banner.png") no-repeat;
+    height: 100vh;
+}
+
+/***************** right side css starts *********************/
+.right-container{
+    margin: 0px;
+    width: 50%;
+    float: left;
+    padding: 20px 40px;
+}
+
+.border-heading{
+    color:#C71F51;
+    border-bottom: 1px #C71F51 solid;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.lbl-name{
+    font-size: 14px;
+    color:#535353;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.box-full{
+    margin-bottom: 25px;
+}
+
+.box-mini-left{
+    width: 48%;
+    float: left;
+    margin-bottom:25px;
+    margin-right: 2%;
+}
+
+.box-mini-right{
+    width: 48%;
+    float: left;
+    margin-bottom:25px;
+    margin-left: 2%;
+}
+
+.input-full-width{
+    width: 100%;
+    height: 35px;
+    background: #d9d9d926;
+    border-radius: 8px;
+    border:1px #D9D9D9 solid;
+    padding-left: 10px;
+}
+
+.textarea-full-width{
+    width: 100%;
+    height: 135px;
+    background: #d9d9d926;
+    border-radius: 8px;
+    border:1px #D9D9D9 solid;
+    padding: 10px;
+}
+.btn-submit{
+    background: #C71F51;
+    border-radius: 8px;
+    color:#fff;
+    padding: 10px 25px;
+    outline: none;
+    cursor: pointer;
+}

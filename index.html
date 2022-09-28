@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="left-container"></div>
+    <div class="right-container">
+        <form>
+            <h1 class="border-heading">Employee Registration Form</h1>
+
+            <div class="box-full">  
+                <label class="lbl-name"  for="fname">Name</label>
+                <input class="input-full-width" type="text" name="fname" placeholder="Enter your Name">
+            </div>
+           
+            <div class="box-mini-left">
+                <label  class="lbl-name" for="Age">Age</label>
+                <select class="input-full-width" name="cars" id="cars">
+                    <option value="Select Age">Select Age</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                 </select>
+           </div>
+
+           <div class="box-mini-right">
+                <label  class="lbl-name" for="birthday">DOB</label>
+                <input class="input-full-width" type="date" id="DOB" name="DOB">
+            </div>
+
+            <div class="box-mini-left">
+                <label  class="lbl-name" for="birthday">Gender</label>
+                <input type="radio" id="Male" name="Gender" value="Male">
+                 <label for="Male">Male</label>
+                 <input type="radio" id="Female" name="Gender" value="Female">
+                 <label for="Female">Female</label>
+            </div>
+
+            <div class="box-mini-right">
+                <label  class="lbl-name" for="birthday">Skills</label>
+                <input type="checkbox" id="HTML" name="Skills1" value="HTML">
+                <label for="vehicle1">HTML</label>
+                <input type="checkbox" id="Java" name="Skills2" value="Java">
+                <label for="vehicle2"> Java</label>
+            </div>
+
+            <div class="box-mini-left">
+                <label  class="lbl-name" for="cars">City</label>
+                <select class="input-full-width" name="City" id="City">
+                <option value="Select City">Select City</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                </select>
+            </div>
+
+            <div class="box-mini-right">
+                <label  class="lbl-name" for="cars">State</label>
+                <select class="input-full-width" name="State" id="State">
+                <option value="Select State">Select State</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="TamilNadu">TamilNadu</option>
+                <option value="Rajastan">Rajastan</option>
+                <option value="Rajastan">Rajastan</option>
+                </select>
+            </div>
+
+            <div class="box-full">  
+                <label  class="lbl-name" for="w3review">Address</label>
+                <textarea class="textarea-full-width" placeholder="Enter Your Address" name="Address" rows="4" cols="50">
+                </textarea>
+            </div>
+
+            <button class="btn-submit">Submit</button>
+            
+          </form>
+    </div>
+</div>
+</body>
+</html>
